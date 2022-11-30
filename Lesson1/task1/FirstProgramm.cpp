@@ -42,6 +42,8 @@ int main(int argc,char** argv)
             outputFile << " ";
         }
         outputFile << numbers1[0];
+        inputFile.close();
+        outputFile.close();
         delete[] numbers1;
         delete[] numbers2;
     }
